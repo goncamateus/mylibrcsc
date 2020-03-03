@@ -196,6 +196,7 @@ public:
       \brief init member variables
     */
     GameMode();
+    GameMode( GameMode::GameMode mode, SideID side, GameTime time, int score_l, int score_r);
 
     /*!
       \brief analyze playmode string and update internal status
