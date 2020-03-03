@@ -181,7 +181,7 @@ GameMode::GameMode()
 
 }
 
-GameMode::GameMode( GameMode::GameMode mode, SideID side, GameTime time, int score_l, int score_r)
+GameMode::GameMode( Type mode, SideID side, GameTime time, int score_l, int score_r)
     : M_time( time )
     , M_type( mode )
     , M_side( side )
